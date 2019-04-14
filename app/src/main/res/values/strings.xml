@@ -15,4 +15,6 @@
     <string name="finish">FINISH</string>
     <string name="history">HISTORY</string>
     <string name="menu_history">History</string>
+    <string name="uname_q">What is your name?</string>
+    <string name="name_missing_error">Please Enter User Name</string>
 </resources>

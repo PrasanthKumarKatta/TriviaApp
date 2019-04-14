@@ -22,6 +22,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uname_q"
+                android:textStyle="bold"
+                android:textSize="@dimen/quiz_q1_size"
+                android:gravity="center"/>
+
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

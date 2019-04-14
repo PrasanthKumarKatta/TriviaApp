@@ -31,6 +31,9 @@ public class RegisterActivity extends AppCompatActivity
             i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(i);
             et_uName.setText(null);
+        }else {
+            et_uName.setError(getString(R.string.name_missing_error));
+            Toast.makeText(this, getString(R.string.name_missing_error), Toast.LENGTH_SHORT).show();
         }
     }
 
