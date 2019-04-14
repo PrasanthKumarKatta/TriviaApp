@@ -44,8 +44,10 @@ public class SummaryActivity extends AppCompatActivity {
         calendar = Calendar.getInstance();
 
         callCurrentTime();
+       /*
         tv_dateTime.setText(dateTime);
-        tv_UName.setText(UName);
+       */
+        tv_UName.setText(UName +",");
         tv_q1Ans.setText("Answer: "+q1Ans);
         tv_q2Ans.setText(q2Ans);
 
@@ -54,7 +56,7 @@ public class SummaryActivity extends AppCompatActivity {
 
     public void finish(View view)
     {
-        dateTime = tv_dateTime.getText().toString().trim();
+     //   dateTime = tv_dateTime.getText().toString().trim();
         UName = tv_UName.getText().toString().trim();
         q1Ans = tv_q1Ans.getText().toString().trim();
         q2Ans = tv_q2Ans.getText().toString().trim();

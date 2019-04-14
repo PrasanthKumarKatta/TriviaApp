@@ -5,8 +5,8 @@
     <string name="q1_b_option">B) Virat Kolli</string>
     <string name="q1_c_option">C) Adam Gilchirst</string>
     <string name="q1_d_option">D) Jacques Kallis</string>
-    <string name="quiz_question1">Who is the best cricketer in the world?</string>
-    <string name="quiz_question2">What are the colors in the Indian national flag?</string>
+    <string name="quiz_question1">1.Who is the best cricketer in the world?</string>
+    <string name="quiz_question2">2.What are the colors in the Indian national flag?</string>
     <string name="quiz_q2_check_a">A) White</string>
     <string name="quiz_q2_check_b">B) Yellow</string>
     <string name="quiz_q2_check_c">C) Orange</string>
