@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/cardview_style"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        style="@style/cardview_style"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            style="@style/cardview_style">
+
+            <TextView
+                style="@style/textview_1_style"
+                android:text="Game"
+                android:textSize="@dimen/dimens_option_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date_time_history"
+                style="@style/linear_horiz_style"
+                android:paddingLeft="10dp"
+                android:text="Date - Time"
+                android:textSize="@dimen/dimens_option_size"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout style="@style/cardview_style">
+            <TextView
+                style="@style/textview_1_style"
+                android:text="Name : "
+                android:textSize="@dimen/dimens_option_size"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/uName_history"
+                style="@style/linear_horiz_style"
+                android:text="User Name"
+                android:padding="10dp"
+                android:textSize="@dimen/dimens_option_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/cardview_style"
+            android:text="@string/quiz_question1"
+            android:textSize="@dimen/dimens_option_size"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/q1_ans__history"
+            style="@style/cardview_style"
+            android:text=""
+            android:textSize="@dimen/dimens_option_size"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/cardview_style"
+            android:text="@string/quiz_question2"
+            android:textSize="@dimen/dimens_option_size"
+            android:textStyle="bold" />
+
+        <LinearLayout style="@style/cardview_style">
+            <TextView
+                style="@style/textview_1_style"
+                android:text="Answers: "
+                android:textSize="@dimen/dimens_option_size"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/q2_ans__history"
+                style="@style/linear_horiz_style"
+                android:text="result comes"
+                android:padding="10dp"
+                android:textSize="@dimen/dimens_option_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <Button
+            style="@style/cardview_style"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:onClick="finish"
+            android:text="@string/finish"
+            android:textColor="#FFFFFF" />
+        <Button
+            style="@style/cardview_style"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:onClick="history"
+            android:text="@string/history"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

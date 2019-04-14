@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_option_size">18sp</dimen>
+    <dimen name="quiz_q1_size">22sp</dimen>
+</resources>

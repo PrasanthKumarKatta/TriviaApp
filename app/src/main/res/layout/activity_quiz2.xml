@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_logo"
+    tools:context=".QuizActivity2">
+
+    <android.support.v7.widget.CardView
+        style="@style/cardview_style"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            style="@style/cardview_style"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/cardview_style"
+                android:text="@string/quiz_question2"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/quiz_q1_size"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/ch1"
+                style="@style/cardview_style"
+                android:text="@string/quiz_q2_check_a" />
+
+            <CheckBox
+                android:id="@+id/ch2"
+                style="@style/cardview_style"
+                android:text="@string/quiz_q2_check_b" />
+
+            <CheckBox
+                android:id="@+id/ch3"
+                style="@style/cardview_style"
+                android:text="@string/quiz_q2_check_c" />
+
+            <CheckBox
+                android:id="@+id/ch4"
+                style="@style/cardview_style"
+                android:text="@string/quiz_q2_check_d"
+                />
+
+            <TextView
+                style="@style/cardview_style"
+                android:text="@string/select_more_than_1"
+                android:textSize="@dimen/quiz_q1_size" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:onClick="nex_summary"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorPrimary"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</ScrollView>
